@@ -1,0 +1,412 @@
+{
+  "root": {
+    "last_event": {
+      "name": [
+        "Нет событий",
+        "Journal End"
+      ]
+    },
+    "variable_changed": {
+      "name": [
+        "Изменение параметра",
+        "ChSett"
+      ],
+      "text": [
+        "Изменение параметра",
+        "Settings Change"
+      ],
+      "id": 13,
+      "cls": 1,
+      "color": "0000FF",
+      "user": [
+        {
+          "id": 1,
+          "name": [
+            "Оператор",
+            "User"
+          ],
+          "color": "0000FF"
+        },
+        {
+          "id": 2,
+          "name": [
+            "Удаленное изменение",
+            "RTU"
+          ],
+          "color": "0000FF"
+        },
+        {
+          "id": 3,
+          "name": [
+            "Автоматическое изменение",
+            "Auto"
+          ],
+          "color": "0000FF"
+        }
+      ]
+    },
+    "system_stop": {
+      "name": [
+        "Останов двигателя",
+        "Stop"
+      ]
+    },
+    "system_start": {
+      "name": [
+        "Пуск двигателя",
+        "Start"
+      ]
+    },
+    "system_started": {
+      "name": [
+        "Пуск двигателя",
+        "Start"
+      ],
+      "id": 1,
+      "cls": 0,
+      "color": "FF0000",
+      "chronology": true,
+      "array": "PERIODIC"
+    },
+    "system_stopped": {
+      "name": [
+        "Останов двигателя",
+        "Stop"
+      ],
+      "text": [
+        "Останов двигателя",
+        "Shutdown"
+      ],
+      "id": 2,
+      "cls": 0,
+      "color": "FF0000",
+      "chronology": true,
+      "array": "PERIODIC"
+    },
+    "system_unlock": {
+      "name": [
+        "Деблокирование КСУ",
+        "Unlock"
+      ],
+      "text": [
+        "Деблокирование КСУ",
+        "Switchboard Unlocked"
+      ],
+      "id": 5,
+      "cls": 0,
+      "color": "FFFF00",
+      "chronology": true,
+      "array": 0
+    },
+    "system_locked": {
+      "name": [
+        "Блокировка КСУ",
+        "Lock"
+      ],
+      "text": [
+        "Блокировка КСУ",
+        "Switchboard Locked"
+      ],
+      "id": 4,
+      "cls": 0,
+      "color": "FFFF00",
+      "chronology": true,
+      "array": 0
+    },
+    "guard_checked": {
+      "name": [
+        "Защита сработала",
+        "Protection Activate"
+      ],
+      "color": "FF0000",
+      "array": "PERIODIC"
+    },
+    "guard_unchecked": {
+      "name": [
+        "Защита сбросилась",
+        "Protection Deactivate"
+      ],
+      "color": "FFFF00",
+      "array": "PERIODIC"
+    },
+    "aro_started": {
+      "name": [
+        "Задержка АПВ",
+        "BypassDly"
+      ],
+      "text": [
+        "Задержка АПВ после срабатывания защит",
+        "Protection Bypass Delay after VSD Stop"
+      ],
+      "id": 9,
+      "cls": 0,
+      "color": "FFFF00"
+    },
+    "aro_finished": {
+      "name": [
+        "АПВ завершено",
+        "Protection Bypass Delay Finish"
+      ],
+      "color": "FFFF00"
+    },
+    "mass_storage_plug": {
+      "name": [
+        "Подключение устройства",
+        "DevPlug"
+      ],
+      "text": [
+        "Подключение устройства",
+        "Device Connect"
+      ],
+      "id": 20,
+      "cls": 2,
+      "color": "FFFF00"
+    },
+    "mass_storage_unplug": {
+      "name": [
+        "Отключение устройства",
+        "DevUnplug"
+      ],
+      "text": [
+        "Отключение устройства",
+        "Device Disconnect"
+      ],
+      "id": 21,
+      "cls": 2,
+      "color": "FFFF00"
+    },
+    "update_firmware": {
+      "name": [
+        "Перепрошивка КСУ",
+        "FwUpd"
+      ],
+      "text": [
+        "Перепрошивка КСУ",
+        "Switchboard Firmware Update"
+      ],
+      "id": 16,
+      "cls": 1,
+      "color": "FFFF00"
+    },
+    "export_history": {
+      "name": [
+        "Считывание хронологии",
+        "SaveJnl"
+      ],
+      "text": [
+        "Считывание хронологии",
+        "Save Journal"
+      ],
+      "id": 15,
+      "cls": 1,
+      "color": "FFFF00"
+    },
+    "export_hist_hidden": {
+      "name": [
+        "Экспорт хронологии",
+        "Dump Journal"
+      ],
+      "color": "000000"
+    },
+    "reset_history": {
+      "name": [
+        "Удаление хронологии",
+        "ClrJnl"
+      ],
+      "text": [
+        "Удаление хронологии",
+        "Clear Journal"
+      ],
+      "id": 14,
+      "cls": 1,
+      "color": "FFFF00"
+    },
+    "reset_aro_counters": {
+      "name": [
+        "Сброс счетчиков АПВ",
+        "RstRestarts"
+      ],
+      "text": [
+        "Обнуление счетчиков ограничения количества АПВ",
+        "Reset Restarts Counters"
+      ],
+      "id": 6,
+      "cls": 0,
+      "color": "FFFF00"
+    },
+    "reset_settings_default": {
+      "name": [
+        "Сброс уставок в заводские значения",
+        "Reset Settings to Factory Settings"
+      ],
+      "color": "FFFF00"
+    },
+    "reset_settings_user": {
+      "name": [
+        "Сброс уставок в значение по умолчанию",
+        "Reset Settings to Default Settings"
+      ],
+      "color": "FFFF00"
+    },
+    "reset_time_counters": {
+      "name": [
+        "Сброс счетчиков",
+        "RstTime"
+      ],
+      "text": [
+        "Сброс счетчиков",
+        "Reset Time Counters"
+      ],
+      "id": 18,
+      "cls": 1,
+      "color": "FFFF00"
+    },
+    "save_settings": {
+      "name": [
+        "Сохранение уставок по умолчанию",
+        "Save Settings as Default"
+      ],
+      "color": "FFFF00"
+    },
+    "power_on": {
+      "name": [
+        "Появления питания",
+        "PowerOn"
+      ],
+      "text": [
+        "Появления питания электрической сети",
+        "Power Supply On"
+      ],
+      "id": 24,
+      "cls": 3,
+      "color": "FFFF00",
+      "array": "PERIODIC"
+    },
+    "power_off": {
+      "name": [
+        "Обрыв питания",
+        "PowerOff"
+      ],
+      "text": [
+        "Обрыв питания электрической сети",
+        "Power Supply Off"
+      ],
+      "id": 25,
+      "cls": 3,
+      "color": "FF0000",
+      "array": "PERIODIC"
+    },
+    "login": {
+      "name": [
+        "Вход пользователя",
+        "Login"
+      ],
+      "color": "FFFF00"
+    },
+    "logout": {
+      "name": [
+        "Выход пользователя",
+        "Logout"
+      ],
+      "color": "FFFF00"
+    },
+    "hot_switch_enable": {
+      "name": [
+        "Горячая замена включена",
+        "Hot Switch On"
+      ],
+      "color": "FFFF00"
+    },
+    "hot_switch_disable": {
+      "name": [
+        "Горячая замена выключена",
+        "Hot Switch Off"
+      ],
+      "color": "FFFF00"
+    },
+    "import_storage": {
+      "name": [
+        "Загрузка уставок",
+        "Import Settings"
+      ],
+      "color": "FFFF00"
+    },
+    "export_storage": {
+      "name": [
+        "Выгрузка уставок",
+        "Export Settings"
+      ],
+      "color": "FFFF00"
+    },
+    "take_snapshot": {
+      "name": [
+        "ПусковХаракт",
+        "VSDStart"
+      ],
+      "text": [
+        "Пусковая характеристика ПЭД",
+        "VSD Start Data"
+      ],
+      "id": 30,
+      "cls": 4,
+      "color": "00FF00"
+    },
+    "door_opened": {
+      "name": [
+        "Открытие двери",
+        "OpenDoor"
+      ],
+      "text": [
+        "Открытие двери",
+        "Open Door"
+      ],
+      "id": 12,
+      "cls": 1,
+      "color": "FFFF00"
+    },
+    "start_error": {
+      "name": [
+        "Ошибка запуска",
+        "VSDStartErr"
+      ],
+      "text": [
+        "Ошибка запуска привода",
+        "VSD Start Error"
+      ],
+      "color": "FF0000"
+    },
+    "stop_error": {
+      "name": [
+        "Ошибка останова",
+        "VSDStopErr"
+      ],
+      "text": [
+        "Ошибка останова привода",
+        "VSD Stop Error"
+      ],
+      "color": "FF0000"
+    },
+    "load_settings_from_engine": {
+      "name": [
+        "Загрузка уставок из ЧРП",
+        "ImSettVSD"
+      ],
+      "text": [
+        "Загрузка уставок из привода",
+        "Import Settings from VSD"
+      ],
+      "color": "FFFF00"
+    },
+    "user_active": {
+      "name": [
+        "Управление оператором",
+        "UserCtrl"
+      ],
+      "text": [
+        "Управление оператором",
+        "User Managment"
+      ],
+      "color": "FFFF00"
+    }
+  }
+}

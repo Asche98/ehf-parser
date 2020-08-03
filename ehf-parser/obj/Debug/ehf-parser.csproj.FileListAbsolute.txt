@@ -1,0 +1,9 @@
+C:\Users\КадыроваЕленаТимуров\source\repos\ehf-parser\ehf-parser\bin\Debug\ehf-parser.exe.config
+C:\Users\КадыроваЕленаТимуров\source\repos\ehf-parser\ehf-parser\bin\Debug\ehf-parser.exe
+C:\Users\КадыроваЕленаТимуров\source\repos\ehf-parser\ehf-parser\bin\Debug\ehf-parser.pdb
+C:\Users\КадыроваЕленаТимуров\source\repos\ehf-parser\ehf-parser\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\КадыроваЕленаТимуров\source\repos\ehf-parser\ehf-parser\bin\Debug\Newtonsoft.Json.Net35.xml
+C:\Users\КадыроваЕленаТимуров\source\repos\ehf-parser\ehf-parser\obj\Debug\ehf-parser.csproj.CoreCompileInputs.cache
+C:\Users\КадыроваЕленаТимуров\source\repos\ehf-parser\ehf-parser\obj\Debug\ehf-parser.csproj.CopyComplete
+C:\Users\КадыроваЕленаТимуров\source\repos\ehf-parser\ehf-parser\obj\Debug\ehf-parser.exe
+C:\Users\КадыроваЕленаТимуров\source\repos\ehf-parser\ehf-parser\obj\Debug\ehf-parser.pdb
